@@ -1,0 +1,19 @@
+npm i -g @angular/cli -> Instalar o angular;
+ng v -> Verificar se o Angular está instalado e qual a versão que está configurada.
+ng new ToDoApp -> Comandor para gerar um novo App;
+ng serve -> Inicializa o servidor;
+ng generate component components/cabecalho -> Criar um novo componente;
+ng g c component components/cabecalho -> Criar um novo componente com o g compacto.
+
+=============================================================================
+# Criando uma API simples
+
+## Instalação de uma API simples
+1. Criar uma pasta backend;
+2. Na pasta backend, iremos abrir o terminal e rodar o comando `npm init -y`
+para que seja instalado o arquivo [pack.json].
+3. Será criado um arquivo [package.json].
+4. Iremos criar um aruqivo chamando [db.json] dentro da pasta backend.
+5. Dentro do arquivo [pack.json], em scripts,
+6. Agora, precisamos isntalar a  depêndencia json-server, rodando no terminal o comando `npm install json-server`
+7. Agora, iremos rodas o nosso serivor backend utilizando o comando `npm start`
