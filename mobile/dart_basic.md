@@ -1,0 +1,49 @@
+# Linguagem Dart - Básico
+
+## Características do DART 
+-> É uma lignuagem de programação criada pelo GOOGLE. Ela é otimizada para desenvolvimento front-end, especialmente para a criação d einterfaces de usuários em aplicativos móveis, web e desktop.
+-> Dart é a linguagem pricupal utilizada no framework `Flutter`, que é amplamente utilizada para construir aplicativos móveis nativos de alta performance para Android e ISO com uma única base de dados.
+-> É uma linguagem fortimente tipada, apesar de permitir inferência de tipo.
+-> Sintax simples expressiva, sendo de fácil aprndizagem para desenvolvedores que conhecem  linguagens JavaScript e Java.
+
+## Instalaçã oe configuração do DART.
+-> Para começar a programar em DART, você precisará instalar o DART SDK `https://dart.dev/get-dart` em seu sistema operacional.
+-> Se você já tiver o SDK do Flutter, ele já vem com o SDK do Dart.
+-> OBS: Pode ser necessário você incluir no path das variáveis de ambientes, o caminho da pasta bin do SDK do dart.
+
+## Tipos de dados
+```dart
+ void main() {
+   int primeiroNumero = 3;
+   double segundoNumero = 4.5;
+   bool estaChovendo = true;
+   bool estaChovendo2 = false;
+   String nomeCompleto = "Heitor Benjamim";
+
+   var naoFazIsso = "Dart é vida!";
+   print('Primeiro número: R\$$primeiroNumero segundo número: $segundoNumero NomeCompleto: $nomeCompleto');
+ }
+```
+
+## Estrutura de dados List, Map, Set.
+1. Lista com inferência
+```dart
+void main() {
+  var nomes = ["Ana", "Bia", "Mariana"];
+  print(nomes);
+  nomes.add("Daniela");
+  print(nomes);
+  print(nomes[2]);
+  print(nomes.length);
+}
+```
+
+2. Set [Conjunto]
+-> São homogêneos, não aceitam valores duplicados.
+```dart 
+void main() {
+  Set<int> conjunto = {0, 1, 2, 3, 4, 5};
+  print(conjunto.length);
+  print(conjunto is Set);
+}
+```
